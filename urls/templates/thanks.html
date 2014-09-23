@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+
+{% block body %}
+<h1>Thanks!</h1>
+<p>Your data is valid, and your link has been shortened for you.
+
+<br>
+<a href="{{ url.get_absolute_url }}">Test: {{ url.get_absolute_url }}</a>
+</p>
+
+
+{% endblock body %}
